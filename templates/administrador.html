@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Panel de Administrador - SMARTGEOGRAPHIC{% endblock %}</title>
+
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/administrador.css' %}">
+</head>
+<body>
+
+    <div class="container-fluid">
+        <!-- Barra de Navegación Vertical -->
+        <nav class="sidebar">
+            <div class="user-info">
+                <p class="text-success">Nombre del Usuario</p>
+                <button id="cerrar-sesion"class="btn btn-success">Cerrar Sesión</button>
+            </div>
+            <button class="btn btn-success">Inicio</button>
+            <button class="btn btn-success">Mis Citas</button>
+            <button class="btn btn-success">Servicios</button>
+            <button class="btn btn-success">Clientes</button>
+            <button class="btn btn-success">Calendario</button>
+            <button class="btn btn-success">Configuración</button>
+        </nav>
+        
+
+        <!-- Contenido Principal -->
+        <main role="main" class="content">
+            <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+                <h1 class="h2">Bienvenido, Administrador</h1>
+            </div>
+            <!-- ... más contenido ... -->
+        </main>
+    </div>
+
+</body>
+</html>
+
+
+<!-- Barra de Navegación Vertical -->
+
+
